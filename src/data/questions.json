@@ -316,5 +316,47 @@
     { "question": "What are Annotations like @Component, @Service, @Repository?", "keywords": ["stereotype", "naming", "context", "scanning"] },
     { "question": "Explain Spring Boot starters.", "keywords": ["dependencies", "managed", "versioning", "autoconfig"] },
     { "question": "What is the purpose of application.properties?", "keywords": ["configuration", "ports", "database", "settings"] }
+  ],
+  "SQL": [
+    { "question": "What is a Joins in SQL?", "keywords": ["inner", "left", "right", "full", "matching"] },
+    { "question": "Explain Primary Key vs Foreign Key.", "keywords": ["unique", "identifier", "reference", "table"] },
+    { "question": "What is an Index?", "keywords": ["performance", "speed", "search", "table"] },
+    { "question": "What are the ACID properties?", "keywords": ["atomicity", "consistency", "isolation", "durability"] },
+    { "question": "Explain GROUP BY clause.", "keywords": ["aggregate", "functions", "rows", "summary"] }
+  ],
+  "Docker": [
+    { "question": "What is a Docker Image?", "keywords": ["read-only", "template", "container", "snapshot"] },
+    { "question": "Explain the difference between Image and Container.", "keywords": ["instance", "running", "template", "layer"] },
+    { "question": "What is a Dockerfile?", "keywords": ["instructions", "build", "commands", "automated"] },
+    { "question": "Explain Docker Volumes.", "keywords": ["persistence", "storage", "host", "container"] },
+    { "question": "What is Docker Compose?", "keywords": ["multi-container", "orchestration", "yaml", "scaling"] }
+  ],
+  "AWS": [
+    { "question": "What is EC2?", "keywords": ["instance", "compute", "cloud", "virtual server"] },
+    { "question": "Explain S3.", "keywords": ["storage", "bucket", "object", "cloud"] },
+    { "question": "What is Lambda?", "keywords": ["serverless", "function", "event-driven", "compute"] },
+    { "question": "Explain IAM.", "keywords": ["identity", "access", "permissions", "security"] },
+    { "question": "What is RDS?", "keywords": ["database", "relational", "managed", "sql"] }
+  ],
+  "Swift": [
+    { "question": "What is Optional in Swift?", "keywords": ["nil", "value", "wrapper", "safety"] },
+    { "question": "Explain Guard statement.", "keywords": ["early exit", "condition", "unwrap", "control flow"] },
+    { "question": "What are Protocols?", "keywords": ["methods", "properties", "blueprint", "conformance"] },
+    { "question": "Explain Struct vs Class in Swift.", "keywords": ["value type", "reference type", "inheritance", "stack", "heap"] },
+    { "question": "What is ARC?", "keywords": ["automatic reference counting", "memory", "deinit", "objects"] }
+  ],
+  "Kotlin": [
+    { "question": "What is Null Safety in Kotlin?", "keywords": ["nullable", "elvis", "operator", "safety"] },
+    { "question": "Explain Data Classes.", "keywords": ["tostring", "equals", "copy", "boilerplate"] },
+    { "question": "What are Coroutines?", "keywords": ["asynchronous", "thread", "suspend", "performance"] },
+    { "question": "Explain Extensions functions.", "keywords": ["functionality", "class", "modify", "static"] },
+    { "question": "What is the difference between val and var?", "keywords": ["immutable", "mutable", "read-only", "variable"] }
+  ],
+  "Rust": [
+    { "question": "Explain Ownership in Rust.", "keywords": ["borrowing", "memory", "safety", "scope"] },
+    { "question": "What are Traits?", "keywords": ["interface", "behavior", "shared", "implementation"] },
+    { "question": "Explain Pattern Matching.", "keywords": ["match", "enums", "flow", "destructuring"] },
+    { "question": "What is the Borrow Checker?", "keywords": ["compiler", "references", "violations", "safety"] },
+    { "question": "Explain Enums in Rust.", "keywords": ["variants", "data", "option", "result"] }
   ]
 }

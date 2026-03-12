@@ -15,12 +15,21 @@ const Interview = () => {
     currentQuestionIndex, 
     isInterviewFinished, 
     language,
+    difficulty,
     isInterviewStarted,
     isBotThinking,
     resetInterview
   } = useInterview();
   
   const messagesEndRef = useRef(null);
+
+  const getDifficultyColor = (diff) => {
+    switch(diff) {
+      case 'Easy': return 'text-green-400 border-green-500/20 bg-green-500/5';
+      case 'Hard': return 'text-purple-400 border-purple-500/20 bg-purple-500/5';
+      default: return 'text-blue-400 border-blue-500/20 bg-blue-500/5';
+    }
+  };
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -47,7 +56,7 @@ const Interview = () => {
   };
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center bg-[#020617] text-white overflow-hidden pt-28 pb-12">
+    <div className="relative min-h-screen flex flex-col items-center bg-[#020617] text-white overflow-hidden pt-28 pb-12 neural-grid">
       {/* HUD Header */}
       <div className="fixed top-0 inset-x-0 z-20 glass h-24 border-b border-primary-blue/20 flex items-center justify-between px-12 backdrop-blur-2xl">
         <div className="flex items-center gap-6">
@@ -61,6 +70,9 @@ const Interview = () => {
           <div className="space-y-1">
              <div className="flex items-center gap-2">
                <h4 className="font-black text-lg text-white tracking-widest uppercase">{language}</h4>
+               <span className={`px-2 py-0.5 rounded-md border text-[10px] font-mono tracking-tighter ${getDifficultyColor(difficulty)}`}>
+                 LEVEL: {difficulty?.toUpperCase()}
+               </span>
                <span className="px-2 py-0.5 rounded-md bg-white/5 border border-white/10 text-[10px] text-white/40 font-mono tracking-tighter">V4.02.AI</span>
              </div>
              <div className="flex items-center gap-3 text-[10px] font-mono text-white/30 text-emerald-400">

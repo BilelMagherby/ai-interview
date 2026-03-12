@@ -1,7 +1,39 @@
-import { useState, useRef } from 'react';
-import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
+import { useState, useRef, useEffect } from 'react';
+import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Cpu, Zap, BarChart3, ChevronRight, Terminal, Globe, Brain, Sparkles } from 'lucide-react';
+import { Cpu, Zap, BarChart3, ChevronRight, Terminal, Globe, Brain, Sparkles, LayoutGrid, Award, Users, Activity } from 'lucide-react';
+
+const StatsTicker = () => {
+  const [stats, setStats] = useState({ interviews: 12480, hired: 3520, uptime: 99.9 });
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setStats(prev => ({
+        interviews: prev.interviews + Math.floor(Math.random() * 3),
+        hired: prev.hired + (Math.random() > 0.8 ? 1 : 0),
+        uptime: prev.uptime
+      }));
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="flex flex-wrap justify-center gap-8 md:gap-16 pt-12 border-t border-white/5 opacity-60">
+      <div className="flex flex-col items-center">
+        <div className="text-2xl font-black text-white">{stats.interviews.toLocaleString()}</div>
+        <div className="text-[10px] font-mono tracking-widest text-primary-cyan uppercase">Interviews Conducted</div>
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="text-2xl font-black text-white">{stats.hired.toLocaleString()}</div>
+        <div className="text-[10px] font-mono tracking-widest text-primary-purple uppercase">Candidates Hired</div>
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="text-2xl font-black text-white">{stats.uptime}%</div>
+        <div className="text-[10px] font-mono tracking-widest text-emerald-400 uppercase">AI Core Uptime</div>
+      </div>
+    </div>
+  );
+};
 
 // Floating 3D Cubes Background Component
 const FloatingCubes = () => {
@@ -159,36 +191,47 @@ const Home = () => {
           Career.
         </motion.h1>
 
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl text-white/50 mb-16 max-w-3xl mx-auto leading-relaxed font-medium"
         >
           The most advanced AI interview simulator. Mock live coding, system design, and behavioral sessions with real-time analysis and expert mentoring.
-        </motion.p>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-8 justify-center items-center"
+          className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-24"
         >
           <button
             onClick={() => navigate('/tracks')}
-            className="group relative px-12 py-6 bg-white text-black rounded-full font-black text-xl hover:scale-105 active:scale-95 transition-all duration-500 overflow-hidden"
+            className="group relative px-12 py-6 bg-white text-black rounded-full font-black text-xl hover:scale-105 active:scale-95 transition-all duration-500 overflow-hidden shadow-[0_0_40px_rgba(255,255,255,0.2)]"
           >
             <span className="relative z-10 flex items-center gap-3">
-              Start Free Session <Sparkles className="w-6 h-6 animate-pulse" />
+              Start Evaluation <Sparkles className="w-6 h-6 animate-pulse" />
             </span>
             <div className="absolute inset-0 bg-primary-blue translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
           </button>
           
           <button
-            className="px-12 py-6 rounded-full text-white font-bold text-xl border-2 border-white/10 hover:bg-white/5 hover:border-white/20 transition-all duration-300"
+            className="group px-12 py-6 rounded-full text-white font-bold text-xl border-2 border-white/10 hover:bg-white/5 hover:border-white/20 transition-all duration-300 flex items-center gap-3"
           >
+            <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-0 h-0 border-t-[6px] border-t-transparent border-l-[10px] border-l-white border-b-[6px] border-b-transparent ml-1" />
+            </div>
             Watch Demo
           </button>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+        >
+          <StatsTicker />
         </motion.div>
       </section>
 
