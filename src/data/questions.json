@@ -1,0 +1,320 @@
+{
+  "React": [
+    {
+      "question": "What is React?",
+      "keywords": ["javascript", "library", "ui", "user interface"]
+    },
+    {
+      "question": "What is the Virtual DOM?",
+      "keywords": ["virtual dom", "copy", "real dom", "reconciliation"]
+    },
+    {
+      "question": "Explain the difference between functional and class components.",
+      "keywords": ["hooks", "state", "functional", "class", "lifecycle"]
+    },
+    {
+      "question": "What are React Hooks?",
+      "keywords": ["state", "functional", "useeffect", "usestate", "side effects"]
+    },
+    {
+      "question": "What is JSX?",
+      "keywords": ["syntax", "extension", "javascript", "xml", "html"]
+    },
+    {
+      "question": "What is the Purpose of useEffect Hook?",
+      "keywords": ["side effects", "lifecycle", "cleanup", "componentdidmount", "componentdidupdate"]
+    },
+    {
+      "question": "What is Prop Drilling?",
+      "keywords": ["props", "transfer", "deep", "context", "redux"]
+    },
+    {
+      "question": "What is the use of 'key' prop in lists?",
+      "keywords": ["identity", "rendering", "stable", "performance", "reconciliation"]
+    },
+    {
+      "question": "What is React Context API?",
+      "keywords": ["state", "global", "provider", "consumer", "prop drilling"]
+    },
+    {
+      "question": "What are Higher-Order Components (HOC)?",
+      "keywords": ["component", "function", "reuse", "logic", "wrap"]
+    }
+  ],
+  "JavaScript": [
+    {
+      "question": "What are the different data types in JavaScript?",
+      "keywords": ["string", "number", "boolean", "null", "undefined", "object", "symbol"]
+    },
+    {
+      "question": "What is the difference between 'let', 'const', and 'var'?",
+      "keywords": ["block", "scope", "hosting", "reassignment", "temporal dead zone"]
+    },
+    {
+      "question": "Explain closures in JavaScript.",
+      "keywords": ["function", "scope", "lexical", "outer", "inner"]
+    },
+    {
+      "question": "What is the difference between '==' and '==='?",
+      "keywords": ["strict", "equality", "coercion", "type", "value"]
+    },
+    {
+      "question": "What is an event loop?",
+      "keywords": ["stack", "queue", "asynchronous", "callback", "non-blocking"]
+    },
+    {
+      "question": "What is a Promise?",
+      "keywords": ["asynchronous", "future", "resolve", "reject", "pending"]
+    },
+    {
+      "question": "Explain 'this' keyword in JavaScript.",
+      "keywords": ["context", "object", "execution", "bind", "call", "apply"]
+    },
+    {
+      "question": "What are arrow functions?",
+      "keywords": ["syntax", "this", "shorthand", "lexical", "anonymous"]
+    },
+    {
+      "question": "What is Hoisting?",
+      "keywords": ["top", "declaration", "variable", "function", "scope"]
+    },
+    {
+      "question": "What is the difference between primitive and reference types?",
+      "keywords": ["value", "address", "memory", "stack", "heap"]
+    }
+  ],
+  "TypeScript": [
+    {
+      "question": "What is TypeScript?",
+      "keywords": ["superset", "javascript", "static", "types", "compiler"]
+    },
+    {
+      "question": "What are the advantages of TypeScript?",
+      "keywords": ["static typing", "error checking", "readability", "autocomplete", "maintenance"]
+    },
+    {
+      "question": "Explain 'interface' vs 'type'.",
+      "keywords": ["extending", "merging", "alias", "object", "union"]
+    },
+    {
+      "question": "What are Generics?",
+      "keywords": ["reusable", "type", "parameter", "placeholder", "flexibility"]
+    },
+    {
+      "question": "What is the 'any' type?",
+      "keywords": ["disabled", "dynamic", "check", "bypass", "unknown"]
+    },
+    {
+      "question": "What is the 'unknown' type?",
+      "keywords": ["safer", "any", "assertion", "type-safe", "narrowing"]
+    },
+    {
+      "question": "Explain Union and Intersection types.",
+      "keywords": ["either", "both", "combination", "pipe", "ampersand"]
+    },
+    {
+      "question": "What are Enums?",
+      "keywords": ["constants", "numeric", "string", "mapping", "named"]
+    },
+    {
+      "question": "What is Type Assertion?",
+      "keywords": ["override", "casting", "compiler", "as", "angle-bracket"]
+    },
+    {
+      "question": "What are Tuple types?",
+      "keywords": ["array", "fixed", "length", "ordered", "heterogeneous"]
+    }
+  ],
+  "Node.js": [
+    {
+      "question": "What is Node.js?",
+      "keywords": ["runtime", "javascript", "v8", "server", "asynchronous"]
+    },
+    {
+      "question": "What is NPM?",
+      "keywords": ["package manager", "dependencies", "modules", "registry", "scripts"]
+    },
+    {
+      "question": "Explain Event-driven programming in Node.js.",
+      "keywords": ["events", "listeners", "emitter", "callback", "asynchronous"]
+    },
+    {
+      "question": "What is a middleware in Express?",
+      "keywords": ["function", "request", "response", "next", "pipeline"]
+    },
+    {
+      "question": "What is the purpose of 'package.json'?",
+      "keywords": ["metadata", "scripts", "version", "dependencies", "manifest"]
+    },
+    {
+      "question": "Difference between synchronous and asynchronous operations?",
+      "keywords": ["blocking", "non-blocking", "callback", "performance", "stack"]
+    },
+    {
+      "question": "What are streams in Node.js?",
+      "keywords": ["buffer", "chunks", "reading", "writing", "piping"]
+    },
+    {
+      "question": "How do you handle errors in Node.js?",
+      "keywords": ["try-catch", "callback", "event", "middleware", "error-first"]
+    },
+    {
+      "question": "What is the difference between module.exports and exports?",
+      "keywords": ["reference", "assignment", "object", "CommonJS", "aliased"]
+    },
+    {
+      "question": "What is the Buffer class in Node.js?",
+      "keywords": ["binary", "data", "memory", "raw", "encoding"]
+    }
+  ],
+  "Express": [
+    {
+      "question": "What is Express.js?",
+      "keywords": ["framework", "node.js", "minimalist", "web", "application"]
+    },
+    {
+      "question": "How to create a simple Express server?",
+      "keywords": ["require", "listen", "port", "app", "get"]
+    },
+    {
+      "question": "What is routing in Express?",
+      "keywords": ["endpoints", "url", "methods", "handlers", "paths"]
+    },
+    {
+      "question": "Explain app.use() in Express.",
+      "keywords": ["middleware", "global", "path", "order", "logic"]
+    },
+    {
+      "question": "What are route parameters?",
+      "keywords": ["params", "dynamic", "id", "colon", "request"]
+    },
+    {
+      "question": "How to handle POST requests in Express?",
+      "keywords": ["body-parser", "json", "request.body", "submit", "route"]
+    },
+    {
+      "question": "What is a Template Engine?",
+      "keywords": ["ejs", "pug", "handlebars", "view", "render"]
+    },
+    {
+      "question": "Explain CORS in Express.",
+      "keywords": ["origin", "security", "headers", "cross-site", "access"]
+    },
+    {
+      "question": "How to serve static files?",
+      "keywords": ["express.static", "public", "assets", "folder", "images"]
+    },
+    {
+      "question": "What is the purpose of Express Router?",
+      "keywords": ["modular", "scaling", "manageable", "sub-routes", "organize"]
+    }
+  ],
+  "Angular": [
+    { "question": "What is Angular?", "keywords": ["framework", "google", "typescript", "spa"] },
+    { "question": "Explain Directives.", "keywords": ["behavior", "dom", "attribute", "structural"] },
+    { "question": "What is Dependency Injection?", "keywords": ["inject", "service", "class", "provider"] },
+    { "question": "Explain Angular lifecycle hooks.", "keywords": ["ngoninit", "ngondestroy", "ngonchanges"] },
+    { "question": "What is an Observable?", "keywords": ["reactive", "rxjs", "stream", "subscription"] },
+    { "question": "What is NgModules?", "keywords": ["organize", "declarations", "imports", "exports"] },
+    { "question": "Explain Data Binding.", "keywords": ["interpolation", "property", "event", "two-way"] },
+    { "question": "What is Angular CLI?", "keywords": ["command line", "scaffold", "build", "generate"] },
+    { "question": "Explain Angular Router.", "keywords": ["navigation", "paths", "outlets", "links"] },
+    { "question": "What is AOT compilation?", "keywords": ["ahead of time", "performance", "build", "browser"] }
+  ],
+  "Vue": [
+    { "question": "What is Vue.js?", "keywords": ["framework", "progressive", "javascript", "ui"] },
+    { "question": "Explain Vue's reactivity system.", "keywords": ["observer", "data", "changes", "proxy"] },
+    { "question": "What are Computed properties?", "keywords": ["cached", "reactive", "dependencies", "logic"] },
+    { "question": "What is Vuex?", "keywords": ["state", "store", "global", "mutations"] },
+    { "question": "Explain Directives like v-if, v-for.", "keywords": ["conditional", "list", "dom", "dynamic"] },
+    { "question": "What is the Vue Router?", "keywords": ["navigation", "routes", "spa", "views"] },
+    { "question": "Explain Mixins.", "keywords": ["reuse", "logic", "shared", "functionality"] },
+    { "question": "What is the Composition API?", "keywords": ["setup", "hooks", "logic", "vue 3"] },
+    { "question": "Explain Props in Vue.", "keywords": ["parent", "child", "data", "pass"] },
+    { "question": "What is the virtual DOM in Vue?", "keywords": ["diff", "performance", "copy", "patch"] }
+  ],
+  "HTML": [
+    { "question": "What is HTML?", "keywords": ["markup", "structure", "language", "web"] },
+    { "question": "What is Semantic HTML?", "keywords": ["meaning", "article", "section", "header", "footer"] },
+    { "question": "Explain HTML5 features.", "keywords": ["video", "audio", "canvas", "localstorage"] },
+    { "question": "What is the DOCTYPE declaration?", "keywords": ["standards", "version", "browser", "quirks"] },
+    { "question": "Explain meta tags.", "keywords": ["description", "keywords", "seo", "viewport"] },
+    { "question": "What is the difference between inline and block elements?", "keywords": ["width", "height", "line", "div", "span"] },
+    { "question": "How to create a table in HTML?", "keywords": ["tr", "td", "th", "thead", "tbody"] },
+    { "question": "What is an alt attribute?", "keywords": ["image", "description", "accessibility", "screen reader"] },
+    { "question": "How to link an external CSS file?", "keywords": ["link", "href", "rel", "stylesheet"] },
+    { "question": "What is a form in HTML?", "keywords": ["input", "submit", "action", "method", "label"] }
+  ],
+  "CSS": [
+    { "question": "What is CSS?", "keywords": ["styles", "presentation", "cascading", "sheets"] },
+    { "question": "Explain selectors.", "keywords": ["id", "class", "element", "tag", "pseudo"] },
+    { "question": "What is the Box Model?", "keywords": ["content", "padding", "border", "margin"] },
+    { "question": "Explain Flexbox.", "keywords": ["direction", "justify", "align", "flex", "container"] },
+    { "question": "What is CSS Grid?", "keywords": ["rows", "columns", "layout", "areas", "grid"] },
+    { "question": "How to make a website responsive?", "keywords": ["media queries", "viewport", "percentage", "rem", "em"] },
+    { "question": "Explain Z-index.", "keywords": ["order", "layer", "stacking", "depth"] },
+    { "question": "What is the difference between PX, EM and REM?", "keywords": ["absolute", "relative", "parent", "root"] },
+    { "question": "Explain Pseudo-classes.", "keywords": ["hover", "active", "focus", "visited"] },
+    { "question": "What is CSS specificity?", "keywords": ["priority", "weight", "override", "important"] }
+  ],
+  "Python": [
+    { "question": "What is Python?", "keywords": ["interpreted", "language", "back-end", "scripting"] },
+    { "question": "Explain PEP 8.", "keywords": ["standard", "coding style", "convention", "readability"] },
+    { "question": "What are Python list comprehensions?", "keywords": ["syntax", "shorthand", "create", "list", "loop"] },
+    { "question": "Explain decorators in Python.", "keywords": ["function", "modify", "wrap", "syntax"] },
+    { "question": "What is the difference between list and tuple?", "keywords": ["mutable", "immutable", "brackets", "parentheses"] },
+    { "question": "Explain lambda functions.", "keywords": ["anonymous", "small", "expression", "inline"] },
+    { "question": "What is a dictionary?", "keywords": ["key-value", "mapping", "json", "hash"] },
+    { "question": "How to handle exceptions?", "keywords": ["try-except", "finally", "raise", "error"] },
+    { "question": "Explain modules and packages.", "keywords": ["import", "files", "reuse", "structure"] },
+    { "question": "What is GIL?", "keywords": ["global interpreter lock", "multithreading", "memory", "python"] }
+  ],
+  "Django": [
+    { "question": "What is Django?", "keywords": ["framework", "python", "backend", "web"] },
+    { "question": "Explain ORM.", "keywords": ["object", "relational", "database", "model", "sql"] },
+    { "question": "What is the Django MTV pattern?", "keywords": ["model", "template", "view"] },
+    { "question": "Explain migrations.", "keywords": ["database", "schema", "changes", "sync"] },
+    { "question": "What is the Django admin interface?", "keywords": ["built-in", "management", "interface", "models"] },
+    { "question": "Explain middleware in Django.", "keywords": ["request", "response", "processing", "hooks"] },
+    { "question": "What are Django forms?", "keywords": ["validation", "input", "rendering", "models"] },
+    { "question": "Explain Django templates.", "keywords": ["syntax", "tags", "filters", "rendering"] },
+    { "question": "How to handle user authentication?", "keywords": ["login", "user", "permissions", "sessions"] },
+    { "question": "What are Django signals?", "keywords": ["event", "hook", "communication", "receiver"] }
+  ],
+  "PHP": [
+    { "question": "What is PHP?", "keywords": ["hypertext", "preprocessor", "server-side", "scripting"] },
+    { "question": "Explain the difference between include and require.", "keywords": ["error", "failure", "import", "files"] },
+    { "question": "What are sessions in PHP?", "keywords": ["server", "storage", "user", "persistence"] },
+    { "question": "Tell about GET and POST methods.", "keywords": ["url", "body", "forms", "parameters"] },
+    { "question": "Explain PHP superglobals.", "keywords": ["$_GET", "$_POST", "$_SESSION", "$_SERVER"] },
+    { "question": "What is PDO?", "keywords": ["database", "object", "prepared statements", "sql"] },
+    { "question": "How to handle errors in PHP?", "keywords": ["try-catch", "error_reporting", "exceptions"] },
+    { "question": "Explain the use of interfaces.", "keywords": ["contracts", "classes", "implementation"] },
+    { "question": "What are namespaces?", "keywords": ["organize", "collision", "structure", "alias"] },
+    { "question": "Tell about PHP 8 features.", "keywords": ["jit", "match", "union types", "attributes"] }
+  ],
+  "Laravel": [
+    { "question": "What is Laravel?", "keywords": ["framework", "php", "backend", "elegant"] },
+    { "question": "Explain Eloquent ORM.", "keywords": ["database", "models", "query builder", "relations"] },
+    { "question": "What is Blade template engine?", "keywords": ["syntax", "directives", "rendering", "layouts"] },
+    { "question": "Explain Artisan CLI.", "keywords": ["commands", "generator", "migrations", "tasks"] },
+    { "question": "What are migrations in Laravel?", "keywords": ["version control", "database", "schema"] },
+    { "question": "Explain Laravel middleware.", "keywords": ["request", "filter", "auth", "logging"] },
+    { "question": "What is routing in Laravel?", "keywords": ["web", "api", "controllers", "paths"] },
+    { "question": "Explain Dependency Injection in Laravel.", "keywords": ["container", "inject", "bindings"] },
+    { "question": "What are Laravel collections?", "keywords": ["wrapper", "arrays", "manipulation", "functions"] },
+    { "question": "Explain Laravel queues.", "keywords": ["background", "jobs", "asynchronous", "performance"] }
+  ],
+  "Java Spring": [
+    { "question": "What is Spring Framework?", "keywords": ["java", "enterprise", "dependency injection", "ioc"] },
+    { "question": "What is Spring Boot?", "keywords": ["starter", "configuration", "embedded", "autonomous"] },
+    { "question": "Explain Dependency Injection (DI) in Spring.", "keywords": ["autowired", "bean", "container", "ioc"] },
+    { "question": "What are Spring Beans?", "keywords": ["objects", "lifecycle", "managed", "ioc"] },
+    { "question": "Explain Spring MVC.", "keywords": ["dispatcher", "model", "view", "controller"] },
+    { "question": "What is Spring Security?", "keywords": ["authentication", "authorization", "protection", "oauth"] },
+    { "question": "Explain Spring Data JPA.", "keywords": ["repository", "database", "persistence", "orm"] },
+    { "question": "What are Annotations like @Component, @Service, @Repository?", "keywords": ["stereotype", "naming", "context", "scanning"] },
+    { "question": "Explain Spring Boot starters.", "keywords": ["dependencies", "managed", "versioning", "autoconfig"] },
+    { "question": "What is the purpose of application.properties?", "keywords": ["configuration", "ports", "database", "settings"] }
+  ]
+}
