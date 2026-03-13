@@ -24,7 +24,7 @@ const MetricCard = ({ icon: Icon, title, value, unit, color, delay }) => (
 );
 
 const Result = () => {
-  const { score, resetInterview, language, isInterviewStarted, metrics, difficulty } = useInterview();
+  const { score, resetInterview, language, isInterviewStarted, metrics, difficulty, track } = useInterview();
   const navigate = useNavigate();
   const [assessmentId] = useState(() => `AI-${Math.random().toString(36).substr(2, 9).toUpperCase()}`);
 
